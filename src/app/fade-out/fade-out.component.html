@@ -1,0 +1,6 @@
+<input #itemInput class="form-control" placeholder="Add items to list" (keyup.enter)='addItem(itemInput)' />
+
+<div *ngIf='items' class='list-group'>
+    <p type='button' *ngFor='let item of items' (click)="removeItem(item)" @fade class="list-group-item">{{item}}</p>
+
+</div>

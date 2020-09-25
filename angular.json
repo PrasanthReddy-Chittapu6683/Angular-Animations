@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-animations"
+    }
+  },
+  "defaultProject": "angular-animations",
+  "cli": {
+    "analytics": "ff974a56-87d7-431b-9854-8ed13eaa4a2b"
+  }
 }

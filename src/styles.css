@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: cursive;
+}
+h1 {
+    justify-content: center;
+    display: flex;
+}
+.title {
+    border: 1px solid lightcoral;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.form-control {
+    width: 80%;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    border: 1px solid lightgrey;
+}
+.list-group {
+}
+.list-group-item {
+    width: 80%;
+    margin: 0px;
+    margin-left: 10px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: left;
+    align-items: center;
+}
+.open-close-container {
+    border: 1px solid #dddddd;
+    margin-top: 1em;
+    padding: 20px 20px 0px 20px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a {
+    margin: 5px;
+    border-left: 1px solid lightblue;
+    padding: 5px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+nav a.active {
+    color: #039be5 !important;
+}
+nav a:hover {
+    color: #039be5;
+    background-color: #cfd8dc;
+}
+nav a:visited,
+a:link {
+    color: #607d8b;
+}
+nav {
+    border: 1px solid lightblue;
+    width: 98%;
+    padding: 6px;
+    margin: 10px;
+}
+.content {
+    margin: 0px 30px 30px 30px;
+    height: 80vh;
+    border: 1px solid lightblue;
+    padding: 15px;
+    font-family: cursive;
+}

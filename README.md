@@ -2,8 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
-## Development server
 
+### In Polyfills.js:
+Web Animations `@angular/platform-browser/animations`
+Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
+Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+
+import 'web-animations-js';  
+
+Run `npm install --save web-animations-js`.
+
+## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
